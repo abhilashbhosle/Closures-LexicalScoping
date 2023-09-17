@@ -1,0 +1,15 @@
+A closure is a combination of functions bundled together with the reference to it's surrounding state.
+
+In other words, a closure gives you an access to an outers function scope from an inner functions scope.
+
+Closures are created everytime when the functions are created during run time.
+
+
+=========LEXICAL SCOPING=================
+Here all the functions enclosed inside the parent function have an access to all the properties of parent.
+But doesn't have the access among themselves (child / enclosed functions)
+And parent doesn't have access to the variables declared inside the child function.
+
+==========CLOSURES===========
+In lexical scoping we have seen the outside of the parent funtion we doesn't have access to 
+the variables of the function ie. it returns all its lexical scope
